@@ -5,8 +5,8 @@ export default defineUserConfig({
   base: "/notevue/",
 
   lang: "zh-CN",
-  title: "文档演示",
-  description: "vuepress-theme-hope 的文档演示",
+  title: "Kirari的笔记本",
+  description: "记录点点滴滴",
 
   theme,
 

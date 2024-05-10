@@ -2,31 +2,45 @@ import { hopeTheme } from "vuepress-theme-hope";
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
+
+
+
 export default hopeTheme({
   hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    name: "Kirari",
+    url: "https://kiko2568.top",
+    email: "1244118445@qq.com"
   },
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "/assets/image/ybd.webp",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "",
+
+  favicon: "/image/ybd.webp",
 
   docsDir: "src",
 
+  navbarAutoHide: "mobile",//always 滑动是消失
   // 导航栏
-  navbar,
+  navbar ,
 
   // 侧边栏
   sidebar,
 
+  headerDepth: 2 ,
+
+  pageInfo: ["Author","Date","Word","ReadingTime"] ,
+
+  copyright: '<a href="https://beian.miit.gov.cn/" target="_blank">桂ICP备2024029447号-1</a>',
   // 页脚
-  footer: "默认页脚",
-  displayFooter: true,
+  footer: 'Copyright © 2024 Kirari' ,
+  displayFooter: false,
+
+
 
   // 加密配置
   encrypt: {
@@ -45,15 +59,17 @@ export default hopeTheme({
 
   // 在这里配置主题提供的插件
   plugins: {
-    // 注意: 仅用于测试! 你必须自行生成并在生产环境中使用自己的评论服务
-    comment: {
-      provider: "Giscus",
-      repo: "vuepress-theme-hope/giscus-discussions",
-      repoId: "R_kgDOG_Pt2A",
-      category: "Announcements",
-      categoryId: "DIC_kwDOG_Pt2M4COD69",
-    },
 
+
+    // 注意: 仅用于测试! 你必须自行生成并在生产环境中使用自己的评论服务
+    // comment: {
+    //   provider: "Giscus",
+    //   repo: "vuepress-theme-hope/giscus-discussions",
+    //   repoId: "R_kgDOG_Pt2A",
+    //   category: "Announcements",
+    //   categoryId: "DIC_kwDOG_Pt2M4COD69",
+    // },
+    
     components: {
       components: ["Badge", "VPCard"],
     },
@@ -186,3 +202,6 @@ export default hopeTheme({
     // },
   },
 });
+
+
+
