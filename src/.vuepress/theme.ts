@@ -20,7 +20,6 @@ export default hopeTheme({
 
   repo: "",
 
-  head:[["link",{rel:"icon",href:"/image/ybd.webp"}]],
 
   favicon: "/image/ybd.webp",
 
@@ -28,18 +27,18 @@ export default hopeTheme({
 
   navbarAutoHide: "mobile",//always 滑动是消失
   // 导航栏
-  navbar ,
+  navbar,
 
   // 侧边栏
   sidebar,
 
-  headerDepth: 2 ,
+  headerDepth: 2,
 
-  pageInfo: ["Author","Date","Word","ReadingTime"] ,
+  pageInfo: ["Author", "Date", "Word", "ReadingTime"],
 
   copyright: '<a href="https://beian.miit.gov.cn/" target="_blank">桂ICP备2024029447号-1</a>',
   // 页脚
-  footer: 'Copyright © 2024 Kirari' ,
+  footer: 'Copyright © 2024 Kirari',
   displayFooter: false,
 
 
@@ -71,7 +70,7 @@ export default hopeTheme({
     //   category: "Announcements",
     //   categoryId: "DIC_kwDOG_Pt2M4COD69",
     // },
-    
+
     components: {
       components: ["Badge", "VPCard"],
     },
