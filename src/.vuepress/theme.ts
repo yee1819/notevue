@@ -20,6 +20,8 @@ export default hopeTheme({
 
   repo: "",
 
+  head:[["link",{rel:"icon",href:"/image/ybd.webp"}]],
+
   favicon: "/image/ybd.webp",
 
   docsDir: "src",
