@@ -21,6 +21,5 @@ actions:
 
 copyright: false
 footer:  <a href="https://kiko2568.top" > Kirari  </a>  |  © 2024-present <br><a href="https://beian.miit.gov.cn/" target="_blank">桂ICP备2024029447号-1</a>
-
 ---
 
