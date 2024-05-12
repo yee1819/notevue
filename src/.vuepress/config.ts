@@ -8,7 +8,7 @@ export default defineUserConfig({
   title: "Kirari的笔记本",
   description: "记录点点滴滴",
 
-  head: [["link", { rel: "icon", href: "/image/ybd.webp" }],],
+  head: [["link", { rel: "icon", href: "/assets/image/ybd.webp" }],],
   theme,
 
   // 和 PWA 一起启用
